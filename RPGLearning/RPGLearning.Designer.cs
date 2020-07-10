@@ -1,6 +1,6 @@
 ﻿namespace RPGLearning
 {
-    partial class Form1
+    partial class RPGLearning
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -28,10 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.SuspendLayout();
+            // 
+            // RPGLearning
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "Form1";
+            this.ClientSize = new System.Drawing.Size(713, 634);
+            this.Name = "RPGLearning";
+            this.Text = "RPGLearning";
+            this.ResumeLayout(false);
+
         }
 
         #endregion

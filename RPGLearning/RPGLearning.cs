@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace RPGLearning
 {
-    public partial class Form1 : Form
+    public partial class RPGLearning : Form
     {
-        public Form1()
+        public RPGLearning()
         {
             InitializeComponent();
         }
